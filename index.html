@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="wrap">
+    <div id="section1" style="visibility: hidden;">
+      <image src='banner.png' />
+    </div>
+    <div id="first_page">
+      <div>
+        <h2>🎅🏻 어떤 선물을 받고 싶나요? 🎁</h2>
+        <p>입력창에 받고 싶은 선물을 적고 버튼을 눌러 보세요!</p>
+      </div>
+      <div id="gift_box">
+        <img id="boxImage" src='present.png' />
+      </div>
+      <div id="inputDiv">
+        <input id="inputWrtie" type="text" name="write" maxlength="30" size="30">
+        <button id="inputBtn" onclick="inputWrite()">click</button>
+      </div>
+    </div>
+    <div id="section2" style="visibility: hidden;">
+      <img id="card" src="giphy.gif">
+      <p id="write"></p>
+      <div>
+        <audio id="audio" controls loop>
+          <source src="enchanted-chimes-177906.mp3" type="audio/mp3">
+        </audio>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
